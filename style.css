@@ -2,12 +2,14 @@
 header {
     background-color: black;
 }
-#Photohere img {
+
+#Photohere {
     width: 200px;
     height: 200px;
     display: block;
     margin: 0 auto;
-  }
+    }
+
 /* ******************************Rectangle1*****************************/
 
 
