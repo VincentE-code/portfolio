@@ -1,36 +1,68 @@
 /* **********************************************HEADER***************************************************   */
 header {
-    background-color: black;
+    background-color: #1b1b1b;
 }
 
+#menu {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    color: #9c9c9c;
+}
+
+#réseaux_sociaux {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40%;
+    color: #ffffff;
+}
+/* **********************************************SECTION1***************************************************   */
 #Photohere {
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    left: 65.78%;
+    right: 6.88%;
+    top: 4.1%;
+    bottom: 88.09%; 
     display: block;
     margin: 0 auto;
-    }
-
-/* ******************************Rectangle1*****************************/
-
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    background-color : #1b1b1b; 
 }
 
-h1 {
+#Headertext h1 {
     position: absolute;
     left: 21.25%;
     right: 51.75%;
     top: 5.82%;
-    bottom: 93.48%; 
-    opacity: 0.3;
+    bottom: 93.48%;
+    color: #ffffff;
 }
 
+#Headertext p {
+    position: absolute;
+    left: 21.32%;
+    right: 44.17%;
+    top: 7.33%;
+    bottom: 91.3%;
+    color: #9c9c9c;
+}
 
-/* **********************************************SECTION1***************************************************   */
-#section_1 
+#Call_to_action {
+    background-color: #62BA1B;
+    color: #ffffff;
+    position: absolute;
+    left: 21.25%;
+    right: 54.7%;
+    top: 9.46%;
+    bottom: 89.14%;
+    text-align: center;
+}
+
+#Clients li {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* **********************************************SECTION2***************************************************   */
 
