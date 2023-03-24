@@ -1,95 +1,153 @@
-/* **********************************************HEADER***************************************************   */
-header {
-    background-color: #1b1b1b;
+/*************************************** CSS Portfolio ***********************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Indique que les dimensions d'un élément doivent inclure le padding et la border en plus de la largeur et de la hauteur spécifiées */
 }
 
-#menu {
+/*************************************** Typography ***********************************/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* défini la hauteur de chaque ligne d’un texte et donc de fait l’espace entre les lignes  */
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px; /* définit la marge basse appliquée à un élément */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;  /* utilisée pour « décorer » le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte.  */
+}
+
+/************************************** Navigation *************************************/
+.first_rectangle {
     display: flex;
-    justify-content: flex-start;
     justify-content: space-between;
-    align-items: center;
-    color: #9c9c9c;
+    padding: 20px;
+    background-color: #333;
 }
 
-#réseaux_sociaux {
+.first_rectangle ul {
+    list-style-type: none; /* permet de définir l'apparence de la puce d'un élément de liste  */
+}
+
+.first_rectangle li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.first_rectangle a {
+    color: #fff;
+}
+
+/************************************** Main content ************************************/
+.black {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+.top {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 40%;
-    color: #ffffff;
-}
-/* **********************************************SECTION1***************************************************   */
-#Photohere {
-    position: absolute;
-    left: 65.78%;
-    right: 6.88%;
-    top: 4.1%;
-    bottom: 88.09%; 
-    display: block;
-    margin: 0 auto;
+    justify-content: space-between;
 }
 
-#Headertext h1 {
-    position: absolute;
-    left: 21.25%;
-    right: 51.75%;
-    top: 5.82%;
-    bottom: 93.48%;
-    color: #ffffff;
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-#Headertext p {
-    position: absolute;
-    left: 21.32%;
-    right: 44.17%;
-    top: 7.33%;
-    bottom: 91.3%;
-    color: #9c9c9c;
+button:hover {
+    background-color: #777;
 }
 
-#Call_to_action {
-    background-color: #62BA1B;
-    color: #ffffff;
-    position: absolute;
-    left: 21.25%;
-    right: 54.7%;
-    top: 9.46%;
-    bottom: 89.14%;
+/************************************ Case Studies **************************************/
+.first_section {
+    padding: 40px;
+}
+
+.first_section h2,
+.second_section h2,
+.third_section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fintech,
+.edtech,
+.pharma {
+    margin-bottom: 40px;
+}
+
+/******************************* Testimonials *******************************************/
+.second_section {
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+.first_testimonial,
+.second_testimonial,
+.third_testimonial,
+.fourth_testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/********************************* Recent Work ******************************************/
+.third_section {
+    padding: 40px;
+}
+
+.first_work,
+.second_work {
+    margin-bottom: 40px;
+}
+
+/************************************** Footer ******************************************/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px;
     text-align: center;
 }
 
-#Clients li {
+form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-/* **********************************************SECTION2***************************************************   */
-
-
-/* **********************************************SECTION3***************************************************   */
-
-
-/* **********************************************FOOTER*****************************************************   */
-footer {
-    background-color: black;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
-.container h2 {
-    position: absolute;
-    left: 49.25%;
-    right: 34.94%;
-    top: 86.29%;
-    bottom: 13.15%;
-    color: white;
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-.container p {
-    position: absolute;
-    left: 36.32%;
-    right: 21.89%;
-    top: 87.39%;
-    bottom: 11.78%;
-    color: #9c9c9c;
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #62BA1B;
+    color: #fff;
+    cursor: pointer;
 }
-.container div {
-    
+
+input[type="submit"]:hover {
+    background-color: #777;
 }
