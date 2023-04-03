@@ -48,7 +48,7 @@ a {
 
 /************************************** Main content ************************************/
 .black {
-    background-color: #333;
+    background-color: #000; /* Changer le fond en noir */
     color: #fff;
     padding: 40px;
 }
@@ -59,7 +59,7 @@ a {
 }
 
 button {
-    background-color: #555;
+    background-color: #62BA1B; /* Changer le fond du bouton en vert */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -68,7 +68,21 @@ button {
 }
 
 button:hover {
-    background-color: #777;
+    background-color: #77DD77; 
+
+/************************************** Clients *************************************/
+#Clients {
+    display: flex;
+    justify-content: center;
+}
+
+#Clients ul {
+    list-style-type: none;
+}
+
+#Clients li {
+    display: inline;
+    margin-right: 20px;
 }
 
 /************************************ Case Studies **************************************/
